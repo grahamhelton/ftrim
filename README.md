@@ -15,6 +15,7 @@ chmod +x ftrim.py
 
 # Usage
 
+```bash
  DESCRIPTION
     This is a simple script that allows you to trim video 
     files in your $HOME/Videos directory to whatever length 
@@ -25,6 +26,7 @@ chmod +x ftrim.py
 
     -o,                     Opens file manager to Videos 
                             folder when complete.(Linux only)
+``` 
 
 Please note that this currently only works with .mkv files
 
