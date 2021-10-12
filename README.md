@@ -26,7 +26,13 @@ chmod +x ftrim.py
 
     -o,                     Opens file manager to Videos 
                             folder when complete.(Linux only)
+./ftrim -o
 ``` 
+
+1. Select number corrosponding to file you would like to edit
+2. Select start time in the format HH:MM:SS (02:13) if you would like to start your clip at 2 minutes 13 seconds
+3. Select start time in the format HH:MM:SS (04:30) if you would like to end your clip at 4 minutes 30 seconds
+4. Input your file name 
 
 Please note that this currently only works with .mkv files
 
