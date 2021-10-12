@@ -3,7 +3,6 @@ fTrim is a simple tool that allows you to designate a clip and select the timest
 
 # Install
 
-```bash
 git clone https://github.com/grahamhelton/ftrim
 
 pip install os io sys datetime moviepy colorama
@@ -11,14 +10,10 @@ pip install os io sys datetime moviepy colorama
 chmod +x ftrim.py
 
 ./ftrim.py -h
-```
 
 # Usage
 
 ```bash
-===============================================================
-                            fTrim
-===============================================================
  DESCRIPTION
     This is a simple script that allows you to trim video 
     files in your $HOME/Videos directory to whatever length 
@@ -29,7 +24,6 @@ chmod +x ftrim.py
 
     -o,                     Opens file manager to Videos 
                             folder when complete.(Linux only)
-==============================================================
 ```
 Please note that this currently only works with .mkv files
 
