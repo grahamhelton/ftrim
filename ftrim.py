@@ -3,6 +3,7 @@
 import os
 import io
 import sys
+import shutil
 import datetime
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 from os import listdir
@@ -88,6 +89,10 @@ sys.stdout = text_trap
 # Do the thing 
 ffmpeg_extract_subclip(finalSelection, startTime, endTime, targetname=name)
 
+# Move video to videos folder
+shutil.move(name, videos)
+
+
 # Unsilence output from moviepy 
 text_trap = io.StringIO()
 sys.stdout = text_trap
@@ -98,4 +103,3 @@ sys.stdout = sys.__stdout__
 print( tick + Fore.GREEN + " Created " + Fore.RED + name + Fore.GREEN + " in " + Fore.YELLOW + videos )
 if "-o" in sys.argv:
     os.system('xdg-open "%s" &' % videos)
-
