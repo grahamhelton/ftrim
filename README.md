@@ -1,4 +1,5 @@
-# What is this?  fTrim is a simple tool that allows you to designate a clip and select the timestamps you want saved from that clip. For example, if you have a 1 minute clip and you want to save only between 30 and 45 seconds of it, you would input :30 seconds as the start time and :45 seconds as the end time. The resulting clip would be 15 seconds starting at 0:30 and ending at 0:45.
+# What is this?
+fTrim is a simple tool that allows you to designate a clip and select the timestamps you want saved from that clip. For example, if you have a 1 minute clip and you want to save only between 30 and 45 seconds of it, you would input :30 seconds as the start time and :45 seconds as the end time. The resulting clip would be 15 seconds starting at 0:30 and ending at 0:45.
 
 # Install
 
